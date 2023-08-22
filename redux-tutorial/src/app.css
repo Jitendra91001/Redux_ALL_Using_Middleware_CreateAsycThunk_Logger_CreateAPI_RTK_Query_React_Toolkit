@@ -1,0 +1,113 @@
+.app {
+    margin: 100px auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.app h1 {
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: justify;
+
+}
+
+.app h2 {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.account h1 {
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.account .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.account button {
+    height: 40px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    background-color: #2879fe;
+    color: white;
+    text-align: center;
+
+}
+
+.account input {
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.account input::placeholder{
+    margin-left: 10px;
+    font-size: 17px;
+    color: #2879fe;
+}
+
+.account .content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account .content span {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.bonus h1 {
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: justify
+}
+
+.bonus .button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bonus .button span {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.bonus button{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    background-color: #2879fe;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    margin-left: 44%;
+}
