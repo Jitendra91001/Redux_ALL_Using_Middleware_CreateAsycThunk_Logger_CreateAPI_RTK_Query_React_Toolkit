@@ -16,7 +16,7 @@ import { incBonus,incbyamount,descBonus,incrementbyBonus } from "../Actions/acti
             return { points: state.points - 1 }
         }
         case incrementbyBonus: {
-            return { points: state.points + action.payload }
+            return { points: state.points - action.payload }
         }
         default:
             return state

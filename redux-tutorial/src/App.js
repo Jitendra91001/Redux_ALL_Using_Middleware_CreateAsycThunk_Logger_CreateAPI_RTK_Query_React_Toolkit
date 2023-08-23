@@ -1,5 +1,6 @@
 import './app.css';
 import Acount from './component/Acount';
+import ApiData from './component/ApiData';
 import Bonus from './component/Bonus';
 import { useSelector } from 'react-redux';
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Acount/>
       <hr/>
       <Bonus/>
+      <hr/>
+      <ApiData/>
     </div>
   );
 }
